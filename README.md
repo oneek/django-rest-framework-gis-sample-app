@@ -1,4 +1,4 @@
-# Example DRF Gis usage
+# Example DRF GIS usage
 Sample django app which use [Geographic add-ons for Django REST Framework](https://github.com/djangonauts/django-rest-framework-gis)
 This app is a storehouse of information about the services provided by companies at a specific geographic point
 
