@@ -1,0 +1,458 @@
+[
+    {
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        },
+        "model": "contenttypes.contenttype",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        },
+        "model": "contenttypes.contenttype",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        },
+        "model": "contenttypes.contenttype",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        },
+        "model": "contenttypes.contenttype",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        },
+        "model": "contenttypes.contenttype",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        },
+        "model": "contenttypes.contenttype",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "app_label": "service_api",
+            "model": "company"
+        },
+        "model": "contenttypes.contenttype",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "app_label": "service_api",
+            "model": "servicearea"
+        },
+        "model": "contenttypes.contenttype",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "app_label": "service_api",
+            "model": "servicetype"
+        },
+        "model": "contenttypes.contenttype",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "app_label": "service_api",
+            "model": "servicetypeareaprice"
+        },
+        "model": "contenttypes.contenttype",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "expire_date": "2017-12-05T21:59:17.403Z",
+            "session_data": "NWYwN2JkOTI2NGQ0OGEzNWYxNjAwNDBjODE1MTY1YzliNGVjZGU3OTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI0MWQzNWE5YTIxMWQ0MDhhNTI0ZmFkNTM4ZGZhNjRiN2U0MWRlMTE3In0="
+        },
+        "model": "sessions.session",
+        "pk": "741xy3o5i5iow1yhrj5rqfq3o7luu4vy"
+    },
+    {
+        "fields": {
+            "address": "Mosocw",
+            "email": "oneek@carbonsoft.ru",
+            "name": "test",
+            "phone": "79527264633"
+        },
+        "model": "service_api.company",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "company": 1,
+            "name": "\u0440\u044b\u043d\u043e\u043a",
+            "poly": "SRID=4326;POLYGON ((-0.04909515380859374 0.02883911011039621, -0.06145477294921872 -0.002059936523001583, -0.002403259277343749 -0.02265930116715924, 0.01373291015625 0.02437591479199789, -0.04909515380859374 0.02883911011039621))"
+        },
+        "model": "service_api.servicearea",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "company": 1,
+            "name": "\u0440\u043e\u0441\u0441\u0438\u044f",
+            "poly": "SRID=4326;POLYGON ((39.35113906860354 63.0762648457905, 41.10895156860354 50.51539134781514, 124.0777015686035 53.9579036072443, 116.3433265686035 70.96070517059674, 39.35113906860354 63.0762648457905))"
+        },
+        "model": "service_api.servicearea",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "name": "\u0432\u043e\u0434\u0430"
+        },
+        "model": "service_api.servicetype",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "name": "\u0435\u0434\u0430"
+        },
+        "model": "service_api.servicetype",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "name": "\u0437\u0440\u0435\u043b\u0438\u0449\u0430"
+        },
+        "model": "service_api.servicetype",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "area": 2,
+            "price": "100.00",
+            "price_currency": "RUB",
+            "service_type": 1
+        },
+        "model": "service_api.servicetypeareaprice",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "codename": "add_logentry",
+            "content_type": 1,
+            "name": "Can add log entry"
+        },
+        "model": "auth.permission",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "codename": "change_logentry",
+            "content_type": 1,
+            "name": "Can change log entry"
+        },
+        "model": "auth.permission",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "codename": "delete_logentry",
+            "content_type": 1,
+            "name": "Can delete log entry"
+        },
+        "model": "auth.permission",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "codename": "add_permission",
+            "content_type": 2,
+            "name": "Can add permission"
+        },
+        "model": "auth.permission",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "codename": "change_permission",
+            "content_type": 2,
+            "name": "Can change permission"
+        },
+        "model": "auth.permission",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "codename": "delete_permission",
+            "content_type": 2,
+            "name": "Can delete permission"
+        },
+        "model": "auth.permission",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "codename": "add_group",
+            "content_type": 3,
+            "name": "Can add group"
+        },
+        "model": "auth.permission",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "codename": "change_group",
+            "content_type": 3,
+            "name": "Can change group"
+        },
+        "model": "auth.permission",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "codename": "delete_group",
+            "content_type": 3,
+            "name": "Can delete group"
+        },
+        "model": "auth.permission",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "codename": "add_user",
+            "content_type": 4,
+            "name": "Can add user"
+        },
+        "model": "auth.permission",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "codename": "change_user",
+            "content_type": 4,
+            "name": "Can change user"
+        },
+        "model": "auth.permission",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "codename": "delete_user",
+            "content_type": 4,
+            "name": "Can delete user"
+        },
+        "model": "auth.permission",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "codename": "add_contenttype",
+            "content_type": 5,
+            "name": "Can add content type"
+        },
+        "model": "auth.permission",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "codename": "change_contenttype",
+            "content_type": 5,
+            "name": "Can change content type"
+        },
+        "model": "auth.permission",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "codename": "delete_contenttype",
+            "content_type": 5,
+            "name": "Can delete content type"
+        },
+        "model": "auth.permission",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "codename": "add_session",
+            "content_type": 6,
+            "name": "Can add session"
+        },
+        "model": "auth.permission",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "codename": "change_session",
+            "content_type": 6,
+            "name": "Can change session"
+        },
+        "model": "auth.permission",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "codename": "delete_session",
+            "content_type": 6,
+            "name": "Can delete session"
+        },
+        "model": "auth.permission",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "codename": "add_company",
+            "content_type": 7,
+            "name": "Can add company"
+        },
+        "model": "auth.permission",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "codename": "change_company",
+            "content_type": 7,
+            "name": "Can change company"
+        },
+        "model": "auth.permission",
+        "pk": 20
+    },
+    {
+        "fields": {
+            "codename": "delete_company",
+            "content_type": 7,
+            "name": "Can delete company"
+        },
+        "model": "auth.permission",
+        "pk": 21
+    },
+    {
+        "fields": {
+            "codename": "add_servicearea",
+            "content_type": 8,
+            "name": "Can add service area"
+        },
+        "model": "auth.permission",
+        "pk": 22
+    },
+    {
+        "fields": {
+            "codename": "change_servicearea",
+            "content_type": 8,
+            "name": "Can change service area"
+        },
+        "model": "auth.permission",
+        "pk": 23
+    },
+    {
+        "fields": {
+            "codename": "delete_servicearea",
+            "content_type": 8,
+            "name": "Can delete service area"
+        },
+        "model": "auth.permission",
+        "pk": 24
+    },
+    {
+        "fields": {
+            "codename": "add_servicetype",
+            "content_type": 9,
+            "name": "Can add service type"
+        },
+        "model": "auth.permission",
+        "pk": 25
+    },
+    {
+        "fields": {
+            "codename": "change_servicetype",
+            "content_type": 9,
+            "name": "Can change service type"
+        },
+        "model": "auth.permission",
+        "pk": 26
+    },
+    {
+        "fields": {
+            "codename": "delete_servicetype",
+            "content_type": 9,
+            "name": "Can delete service type"
+        },
+        "model": "auth.permission",
+        "pk": 27
+    },
+    {
+        "fields": {
+            "codename": "add_servicetypeareaprice",
+            "content_type": 10,
+            "name": "Can add service type area price"
+        },
+        "model": "auth.permission",
+        "pk": 28
+    },
+    {
+        "fields": {
+            "codename": "change_servicetypeareaprice",
+            "content_type": 10,
+            "name": "Can change service type area price"
+        },
+        "model": "auth.permission",
+        "pk": 29
+    },
+    {
+        "fields": {
+            "codename": "delete_servicetypeareaprice",
+            "content_type": 10,
+            "name": "Can delete service type area price"
+        },
+        "model": "auth.permission",
+        "pk": 30
+    },    
+    {
+        "fields": {
+            "action_flag": 1,
+            "action_time": "2017-11-21T22:02:50.619Z",
+            "change_message": "[{\"added\": {}}]",
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "ServiceArea object",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2017-11-21T22:22:18.631Z",
+            "change_message": "[{\"changed\": {\"fields\": [\"name\", \"poly\"]}}]",
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "\u0440\u043e\u0441\u0441\u0438\u044f",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2017-11-21T22:58:16.155Z",
+            "change_message": "[{\"changed\": {\"fields\": [\"area\"]}}]",
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "100.00 RUB \u0437\u0430 \u0432\u043e\u0434\u0430 \u0432 \u0440\u043e\u0441\u0441\u0438\u044f",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 3
+    }
+]
