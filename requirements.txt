@@ -6,7 +6,7 @@ chardet==3.0.4
 cli-helpers==0.2.3
 click==6.7
 configobj==5.0.6
-Django==1.11.7
+Django==1.11.23
 django-crispy-forms==1.7.0
 django-filter==1.1.0
 django-money==0.12.1
